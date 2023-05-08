@@ -1,18 +1,20 @@
-*{
+* {
     margin: 0;
     padding: 0;
-    box-sizing: border-box; 
+    box-sizing: border-box;
     cursor: pointer;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: #fdfcf9;
+    /* overflow: hidden; */
 }
 
-.header{
+.header {
     height: 100vh;
     width: 100%;
     position: fixed;
 }
-.navbar{
+
+.navbar {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -20,37 +22,38 @@
     width: 100%;
 }
 
-.logo{
+.logo {
     align-items: center;
     display: flex;
     padding: 30px;
     margin: 40px;
 }
-.logo img{
+
+.logo img {
     padding-right: 10px;
-    width: 60px;
+    /* width: 60px; */
     height: 55px;
 }
 
-.logo h3{
+.logo h3 {
     font-size: 35px;
     text-align: center;
     text-transform: capitalize;
 }
 
-.menu{
+.menu {
     display: flex;
     margin: 30px;
     padding: 30px;
     align-items: center;
     justify-content: space-between;
-} 
+}
 
-.menu ul{
+.menu ul {
     display: flex;
 }
 
-.menu li{
+.menu li {
     display: flex;
     text-align: center;
     list-style: none;
@@ -61,21 +64,22 @@
     justify-content: space-between;
 }
 
-.navitems a{
+.navitems a {
     text-decoration: none;
 }
 
-.navitems a:hover{
-        /* transform: matrix3d(); */
-        border-bottom: 1px solid  rgb(66, 49, 251);
-        /* padding: 40px; */
+.navitems a:hover {
+    /* transform: matrix3d(); */
+    border-bottom: 1px solid rgb(66, 49, 251);
+    /* padding: 40px; */
 }
 
-#line{
+#line {
     border-right: 1px grey solid;
     margin-left: 10px;
 }
-#register{
+
+#register {
     border-radius: 15px 50px;
     background-color: rgb(66, 49, 251);
     /* border: 1px solid red; */
@@ -86,7 +90,8 @@
     text-align: center;
     font-size: 15px;
 }
-.maincontent{
+
+.maincontent {
     flex: auto;
     display: flex;
     padding: 30px;
@@ -96,7 +101,7 @@
 
 }
 
-.blackfriday{
+.blackfriday {
     margin-left: 40px;
     margin-bottom: 30px;
     border-radius: 22px;
@@ -106,43 +111,176 @@
     align-items: center;
     justify-content: center;
 }
-.blackfriday button{
+
+.blackfriday button {
     border: none;
 }
-#SAVE{
+
+#SAVE {
     border-radius: 18px;
     background-color: #fdfcf9;
     color: black;
     font-weight: 30px;
     padding: 7px 12px;
 }
-.maintext h2{
+
+.maintext h2 {
     font-size: 70px;
     font-weight: 600;
     text-transform: capitalize;
-    padding:20px 40px ;
+    padding: 20px 40px;
     /* align-items: center; */
 }
-.maintext h4{
+
+.maintext h4 {
     text-transform: capitalize;
-    padding:20px 40px ; 
+    padding: 20px 40px;
     color: #fdfcf9;
 }
 
+#signup-btn,
+#learnmore-btn {
+    padding: 20px 45px;
+    background-color: blue;
+    border: none;
+    font-size: medium;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border-radius: 32px;
+    margin: 20px 40px;
+}
 
-#log1{
+#log1 {
     position: absolute;
     left: 10px;
     right: 55px;
     bottom: 30px;
+    overflow: hidden;
 }
 
-#log2{
-     position: absolute;
-     overflow: hidden;
-    /* top: 0; */
+#log2 {
+    position: absolute;
+    overflow: hidden;
     bottom: 10%;
     right: 30%;
-    /* top: 45px; */
-    left: 50%;
+    left: 0;
+}
+
+.header-footer {
+    display: flex;
+    flex: auto;
+    justify-content: space-between;
+    padding: 20px 65px;
+    align-items: center;
+}
+
+.header-footer~div {
+    padding-right: 30px;
+}
+
+.contentlayer2 {
+    width: 100%;
+    display: flex;
+    /* flex: auto;
+    align-items: center; */
+    justify-content: space-between;
+    padding: 30px;
+    align-items: center;
+}
+
+.contentlayer2 img {
+    /* -webkit-column-width: 50%; */
+    padding-left: 30px;
+}
+
+.contentlayertext {
+    width: 50%;
+    align-items: center;
+    justify-content: center;
+}
+
+.contentlayertext h3 {
+    font-size: 45px;
+    padding: 40px;
+}
+
+.contentlayertext h3::first-letter{
+    color: cornflowerblue;
+    font-size: xx-large;
+}
+
+.contentlayertext h4 {
+    padding: 20px 40px;
+    font-size: 20px;
+    color: aliceblue;
+}
+
+#contentlayerfooter {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+
+#contentlayerfooter h3 {
+    font-size: 30px;
+    text-transform: capitalize;
+}
+
+#contentlayerfooter h4 {
+    color: aliceblue;
+    text-align: center;
+    padding: 10px 30px;
+}
+
+section{
+    background-color: aliceblue;
+    justify-content: center;
+    position: relative;
+    padding: 30px;
+    /* margin: 50px; */
+}
+
+.secondtext p{
+    
+    border: 1px solid rgb(136, 66, 222);
+    color: aqua;
+    padding: 30px;
+
+
+}
+
+.secondtext h3 {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: rgb(3, 1, 15);
+    font-size: 30px;
+    text-transform: capitalize;
+    /* height: 70vh; */
+    padding: 60px 80px;
+
+}
+
+.mining{
+    display: flex;
+    justify-content: space-around;
+    margin: 40px;
+    
+}
+
+.mining > div{
+    background-color: rgb(34, 9, 58);
+    padding:50px;
+    align-content: center;
+    justify-content: center;
+    margin: 45px;
+    text-align: center;
+    border-radius: 20px;
+}
+
+
+.mining, button{
+    background-color: blue;
+    border-radius: 22px;
+    padding: 20px 30px;
 }
