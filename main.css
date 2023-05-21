@@ -125,10 +125,18 @@
 }
 
 .maintext h2 {
-    font-size: 70px;
-    font-weight: 600;
+    /* font-size: 70px;
+    font-weight: 600; */
     text-transform: capitalize;
     padding: 20px 40px;
+
+    font-family: Rubik;
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 76px;
+    letter-spacing: 0em;
+    text-align: left;
+
     /* align-items: center; */
 }
 
@@ -174,7 +182,43 @@
 }
 
 .header-footer~div {
+    display: lex;
     padding-right: 30px;
+}
+
+#headerfootericon {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 15px;
+    margin-right: 10px;
+}
+
+#headerfootericon img{
+    margin-right: 10px;
+}
+#headerfootericon h3{
+    /* position: absolute; */
+width: 230px;
+height: 28px;
+left: 657px;
+top: 164px;
+
+/* Body / Small - Regular */
+
+font-family: 'Rubik';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 28px;
+/* identical to box height, or 175% */
+
+letter-spacing: 0.01em;
+
+/* Neutral / Grey 5 */
+
+color: #E0E0E0;
+
 }
 
 .contentlayer2 {
@@ -195,6 +239,7 @@
 .contentlayertext {
     width: 50%;
     align-items: center;
+    margin-left: 30px;
     justify-content: center;
 }
 
@@ -203,10 +248,11 @@
     padding: 40px;
 }
 
-.contentlayertext h3::first-letter{
+/* 
+.contentlayertext h3::first-letter {
     color: cornflowerblue;
     font-size: xx-large;
-}
+} */
 
 .contentlayertext h4 {
     padding: 20px 40px;
@@ -230,18 +276,19 @@
     color: aliceblue;
     text-align: center;
     padding: 10px 30px;
+    margin: 35px 10px;
 }
 
-section{
-    background-color: aliceblue;2
+section {
+    background-color: aliceblue;
     justify-content: center;
     position: relative;
     padding: 30px;
     /* margin: 50px; */
 }
 
-.secondtext p{
-    
+.secondtext p {
+
     border: 1px solid rgb(136, 66, 222);
     color: aqua;
     padding: 30px;
@@ -261,16 +308,17 @@ section{
 
 }
 
-.mining{
+.mining {
     display: flex;
+    align-items: center;
     justify-content: space-around;
     margin: 40px;
-    
+    padding: 49px;
 }
 
-.mining > div{
-    background-color: rgb(34, 9, 58);
-    padding:50px;
+.mining>div {
+    background-color: rgb(18, 9, 58);
+    padding: 50px;
     align-content: center;
     justify-content: center;
     margin: 45px;
@@ -278,9 +326,58 @@ section{
     border-radius: 20px;
 }
 
+.mining h5 {
+    color: azure;
+    font-weight: 500;
 
-.mining, button{
+}
+
+#mining-btn {
     background-color: blue;
     border-radius: 22px;
-    padding: 20px 30px;
+    padding: 10px 35px;
+    display: inline-flex;
+    margin-top: 20px;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    color: aliceblue;
+    border: none;
+}
+
+.thirdlayer {
+    /* height: 100vh; */
+    width: inherit;
+    background-color: rgb(29, 4, 110);
+    padding: 30px;
+}
+
+#tltimg {
+    position: absolute;
+    top: 0;
+    left: 20px;
+    right: 40px;
+    z-index: 5;
+    width: 20%;
+    /* height: 40%; */
+
+}
+
+.thirdlayertext {
+    display: inline-flex;
+    justify-content: space-around;
+    margin: 40px;
+    padding: 0px 30px;
+    /* align-items: center; */
+
+}
+
+.thirdlayer h3 {
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    font-size: 30px;
+    text-transform: capitalize;
+    padding: 30px;
+    margin-top: 20px;
 }
