@@ -194,30 +194,31 @@
     margin-right: 10px;
 }
 
-#headerfootericon img{
+#headerfootericon img {
     margin-right: 10px;
 }
-#headerfootericon h3{
+
+#headerfootericon h3 {
     /* position: absolute; */
-width: 230px;
-height: 28px;
-left: 657px;
-top: 164px;
+    width: 230px;
+    height: 28px;
+    left: 657px;
+    top: 164px;
 
-/* Body / Small - Regular */
+    /* Body / Small - Regular */
 
-font-family: 'Rubik';
-font-style: normal;
-font-weight: 400;
-font-size: 16px;
-line-height: 28px;
-/* identical to box height, or 175% */
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    /* identical to box height, or 175% */
 
-letter-spacing: 0.01em;
+    letter-spacing: 0.01em;
 
-/* Neutral / Grey 5 */
+    /* Neutral / Grey 5 */
 
-color: #E0E0E0;
+    color: #E0E0E0;
 
 }
 
@@ -318,12 +319,16 @@ section {
 
 .mining>div {
     background-color: rgb(18, 9, 58);
-    padding: 50px;
+    padding: 97px 80px;
     align-content: center;
     justify-content: center;
     margin: 45px;
     text-align: center;
     border-radius: 20px;
+}
+
+.mining>img {
+    margin: 60px;
 }
 
 .mining h5 {
@@ -372,7 +377,7 @@ section {
 
 }
 
-.thirdlayer h3 {
+#market-set {
     align-items: center;
     text-align: center;
     justify-content: center;
@@ -380,4 +385,43 @@ section {
     text-transform: capitalize;
     padding: 30px;
     margin-top: 20px;
+}
+
+#textheader{
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 800;
+    padding: 20px 30px;
+    /* font-size: 16px; */
+    line-height: 28px;
+}
+
+
+#textheader-2{
+    font-size: 18px;
+    /* font-weight: 100; */
+    font-style: normal;
+    font-size: 16px;
+    padding: 20px 30px;
+    line-height: 28px;
+}
+
+#btnlearnmore{
+    background-color: blue;
+    border-radius: 28px;
+    padding: 20px 45px;
+    display: inline-flex;
+    margin: 20px;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    color: aliceblue;
+    border: none;
+}
+.stats{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px;
+
 }
